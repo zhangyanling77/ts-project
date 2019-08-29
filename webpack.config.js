@@ -18,7 +18,7 @@ module.exports = {
     devServer:{
         hot:true,
         contentBase:path.join(__dirname,'dist'),
-        //无法响应的路由都会重定向到首页
+        // 无法响应的路由都会重定向到首页
         historyApiFallback:true
     },
     //处理路径解析的
@@ -52,6 +52,6 @@ module.exports = {
             template:'./src/index.html',
             filename:'index.html'
         }),
-        new webpack.HotModuleReplacementPlugin()
+        new webpack.HotModuleReplacementPlugin() // 热更新
     ]
 }
