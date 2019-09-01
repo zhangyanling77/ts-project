@@ -24,7 +24,14 @@ ts-project
   - components
   - containers
   - api
+   - home.js
+   - index.js
   - common
+   - common.less
   - images
   - store
+   - action
+   - reducer
+   - action-types.tsx
+   - index.tsx
 ```
