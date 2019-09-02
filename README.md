@@ -36,6 +36,16 @@ cnpm i connected-react-router -S
 }
 ```
 
+### Webpack配置
+
+webpack.config.js
+
+### 路由配置
+
+### 使用redux
+
+### 组件开发及测试
+
 ### 最终项目结构
 ```
 ts-project
