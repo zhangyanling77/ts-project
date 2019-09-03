@@ -26,7 +26,7 @@ class Login extends React.Component<Props> {
                 <input type="text" placeholder="手机号" ref="username"/>
                 <input type="text" placeholder="密码" ref="password"/>
                 <Link to="/reg">前往注册</Link>
-                <button onClick={this.login}>登&nbsp;&nbsp;录</button>
+                <button onClick={this.login}>登&emsp;录</button>
            </div>
        )
    }
