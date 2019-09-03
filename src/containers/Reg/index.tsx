@@ -26,7 +26,7 @@ interface Props {
                 <input type="text" placeholder="手机号" ref="username"/>
                 <input type="text" placeholder="密码" ref="password"/>
                 <Link to="/login">前往登录</Link>
-                <button onClick={this.reg}>注&nbsp;&nbsp;册</button>
+                <button onClick={this.reg}>注&emsp;册</button>
            </div>
        )
    }
